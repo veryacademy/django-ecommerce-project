@@ -1,4 +1,4 @@
-![alt text](test.png){:height="200px" width="500px"}
+![alt text](test.png)
 # Django-Ecommerce
 The django-ecommerce project represents a Very Academy tutorial series.
 
