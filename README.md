@@ -2,7 +2,7 @@
 # Django-Ecommerce
 The Django-Ecommerce is an open-source project inititive and tutorial series.   
 
-## Tutorials
+# Tutorials
 The tutorials, found here on YouTube take you through the steps of developing an ecommerce application with Python Django, prodominately deploying the Django templating system.
 
 ## Prerequisites
