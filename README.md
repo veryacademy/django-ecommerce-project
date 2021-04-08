@@ -46,14 +46,14 @@ This first tutorial is most definitely aimed at Django beginners where we cover 
 
 </details>
 
-## Future Tutorials
+## Future Content
 List of features requested by community. If you would like to request any features not included - please visit our YouTube channel and make a comment.
 
-Up Next:
+#### Up Next:
 + Project Refactoring: Restructured project folder
 + Tests for whole system
 
-Introduction Phase Suggestions:
+#### Introduction Phase Suggestions:
 
 + Create Data fixtures (if possible community support for multiple languages)
 + Setup or custom commands for project inital setup
@@ -65,7 +65,7 @@ Introduction Phase Suggestions:
 + Rating / Feedback
 + Coupon System
 
-Intermediate Phase Suggestions:
+#### Intermediate Phase Suggestions:
 + Internationalization
 + Change to CBV (or not - up to you)
 + PostgreSQL (via Docker)
@@ -75,7 +75,7 @@ Intermediate Phase Suggestions:
 + Email list + bulk emailing
 + Notifications
 
-Advanced Phase Suggestions:
+#### Advanced Phase Suggestions:
 + Haystack / Elasticsearch
 + User Recommendations/Recommender systems
 + Cache
@@ -84,7 +84,7 @@ Advanced Phase Suggestions:
 + Generating product statistics
 + Allow users to sell products
 
-Deployment:
+#### Deployment:
 + Docker deployment configuration
 + Heroku deployment
 + Digital Oceon deployment
