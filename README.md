@@ -46,6 +46,19 @@ Part 1
 <b>Show Tutorial Timeline</b>
 </summary>
 
+### **Part-2 Build custom accounts**
+This first tutorial is most definitely aimed at Django beginners where we cover the basics of developing Django views, URLS, models and get started with testing our application. By the end of this tutorial you will have a working product catalogue which will form the basis of our Ecommerce application.
+<details>
+<summary>
+<b>Completed source repository</b>
+</summary>
+Part 1
+</details>
+<details>
+<summary>
+<b>Show Tutorial Timeline</b>
+</summary>
+
 #### Introduction & Getting Started
 00:00 Project Introduction  
 04:38 Preview of final application  
@@ -107,4 +120,3 @@ This project welcomes contributions and suggestions. At present, we are not acce
 
 # License
 [MIT License](LICENSE)
-
