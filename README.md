@@ -34,10 +34,10 @@ New developers, new Python Django developers, Python Django enthusiasts, student
 ## Course Content
 
 ### **Part-1 Building the product catalogue**
-
+This first tutorial is most definitely aimed at Django beginners where we cover the basics of developing Django views, URLS, models and get started with testing our application. By the end of this tutorial you will have a working product catalogue which will form the basis of our Ecommerce application.
 <ul>
-<li>This first tutorial is most definitely aimed at Django beginners where we cover the basics of developing Django views, URLS, models and get started with testing our application. By the end of this tutorial you will have a working product catalogue which will form the basis of our Ecommerce application.</li>
 <li>Completed source repository</li>
+<li>Link to Video Tutorial</li>
 </ul>
 
 
@@ -46,3 +46,4 @@ This project welcomes contributions and suggestions. At present, we are not acce
 
 # License
 [MIT License](LICENSE)
+
