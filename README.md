@@ -8,18 +8,6 @@ The tutorials, found here on YouTube take you through the steps of developing an
 ## Course Content
 
 ### **Part-1 Building the product catalogue**
-Get the project started with Django Python and build the product catalogue
-
-<details>
-<summary>
-<b>Show Details</b>
-</summary>
-Part 1
-</details>
-
-### **Part-2 Building the product catalogue**
-Get the project started with Django Python and build the product catalogue
-
 <details>
 <summary>
 <b>Show Details</b>
@@ -32,4 +20,3 @@ This project welcomes contributions and suggestions. At present, we are not acce
 
 # License
 [MIT License](LICENSE)
-
