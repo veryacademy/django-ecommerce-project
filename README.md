@@ -3,7 +3,7 @@
 The Django-Ecommerce is an open-source project inititive and tutorial series.   
 
 # Tutorials
-The tutorials, found [here](https://youtube.com/veryacademy) on our YouTube channel take you through the steps of developing an ecommerce application with Python Django, prodominately deploying the Django templating system.
+The tutorials, found [here](https://www.youtube.com/watch?v=UqSJCVePEWU&list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_) on our YouTube channel take you through the steps of developing an ecommerce application with Python Django, prodominately deploying the Django templating system.
 
 What you'll learn
 We'll answer common questions like:
@@ -46,13 +46,48 @@ This first tutorial is most definitely aimed at Django beginners where we cover 
 
 </details>
 
-## Future Content
+## Future Tutorials
 List of features requested by community. If you would like to request any features not included - please visit our YouTube channel and make a comment.
 
-1. Tests for whole system
-2. Create Data fixtures (if possible community support for multiple languages)
-3. Setup or custom commands for project inital setup
-4. Documentation - Class Diagrams and Sequence Diagrams
+Up Next:
++ Project Refactoring: Restructured project folder
++ Tests for whole system
+
+Introduction Phase Suggestions:
+
++ Create Data fixtures (if possible community support for multiple languages)
++ Setup or custom commands for project inital setup
++ Documentation - Class Diagrams and Sequence Diagrams
++ Basic/different search techniques
++ Product Tags/Search
++ Email payment confirmation and PDF receipts
++ Product filter searching
++ Rating / Feedback
++ Coupon System
+
+Intermediate Phase Suggestions:
++ Internationalization
++ Change to CBV (or not - up to you)
++ PostgreSQL (via Docker)
++ Custom admin views and management tasks
++ Managing sales or season sales
++ Store locator to your project
++ Email list + bulk emailing
++ Notifications
+
+Advanced Phase Suggestions:
++ Haystack / Elasticsearch
++ User Recommendations/Recommender systems
++ Cache
++ Live Chat - Help/Support (Channels)
++ Processing / working with images (compression etc)
++ Generating product statistics
++ Allow users to sell products
+
+Deployment:
++ Docker deployment configuration
++ Heroku deployment
++ Digital Oceon deployment
 
 # Contributing
 This project welcomes contributions and suggestions. At present, we are not accepting any code contributions. When the tutorials have finished the project will be open to welcome code contributions and further suggestions.
