@@ -35,9 +35,12 @@ New developers, new Python Django developers, Python Django enthusiasts, student
 
 ### **Part-1 Building the product catalogue**
 From managing notifications to merging pull requests, GitHub Learning Lab’s “Introduction to GitHub” course guides you through everything you need to start contributing in less than an hour. 
-<ul>
-<li>Completed source repository</li>
-</ul>
+<details>
+<summary>
+<b>Completed source repository</b>
+</summary>
+Part 1
+</details>
 <details>
 <summary>
 <b>Show Tutorial Timeline</b>
@@ -50,3 +53,4 @@ This project welcomes contributions and suggestions. At present, we are not acce
 
 # License
 [MIT License](LICENSE)
+
