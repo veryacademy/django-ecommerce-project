@@ -11,3 +11,11 @@ __pycache__/
 ####
 .venv/
 venv/
+
+####
+# Unit Test & 
+# Coverage Reports
+####
+htmlcov/
+.coverage
+.pytest_cache

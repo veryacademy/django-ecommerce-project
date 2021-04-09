@@ -1,1 +1,26 @@
+1.
 pip install pytest-django
+add pytest.ini
+2.
+Create comparrison with unit test
+3.
+Run tests
+
+pytest a_directory                     # directory
+pytest test_something.py               # tests file
+pytest test_something.py::single_test  # single test function
+pytest tests/account/test_account.py::test_function_fixture1  -m "views" -rP
+
+Extra summary info can be shown using the '-r' option:
+pytest -rP
+shows the captured output of passed tests.
+pytest -rx
+pytest -sv
+pytest -m "views" -rP
+
+function	Run once per test
+class	Run once per class of tests
+module	Run once per module
+session	Run once per session
+
+coverage run -m pytest 

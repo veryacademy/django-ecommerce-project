@@ -1,0 +1,37 @@
+[Django root]/                 
+├── [projectname]/              
+│   ├── __init__.py
+│   ├── apps/
+│   │   ├── __init__.py
+│   │   ├── views.py  
+│   │   ├── model.py
+│   │   ├── ...      
+│   ├── settings/
+│   │   ├── __init__.py
+│   │   ├── development.py
+│   │   └── production.py
+│   ├── urls.py
+│   └── wsgi.py
+├── docs/
+│   ├── project_docs.txt
+│   ├── ...
+├── manage.py
+├── static/
+│    └── css/ 
+│       ├── main.css
+│       └── ...
+├── templates/
+│    └── app/ 
+├── test/
+│    └── app/ 
+│       ├── test_*.js
+│       └── ...
+├── .gitignore
+├── .db.sqlite3
+├── .LICENSE
+├── .manage.py
+├── .pytest.ini
+├── .README.md
+└── requirements.txt
+
+├── venv
