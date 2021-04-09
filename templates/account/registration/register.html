@@ -1,0 +1,42 @@
+{% extends "../sub_base.html" %}
+{% block title %}Register Account{% endblock %}
+{% block sub_content %}
+
+<form class="account-form" action="." method="post">
+  {% csrf_token %}
+  <h3 class="mb-2">Create an account</h3>
+  <p class="mb-4">It's free and only takes a minute.</p>
+
+  {% if form.errors %}
+  <p>Please correct the following errors:</p>
+  {% for field in form %}
+  {% if field.errors %}
+  <div class="alert alert-primary" role="alert">
+    {{ field.label }}: {{ field.errors|striptags }}
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+
+  <label>{{ form.user_name.label }}<span class="text-muted small">
+      (Required)</span></label>
+  {{ form.user_name }}
+  <label>{{ form.email.label}}<span class="text-muted small">
+      (Required)</span></label>
+  {{ form.email }}
+  <label>{{ form.password.label}}<span class="text-muted mb-4">
+    </span></label>
+  <small class="form-text text-muted mb-4 small">
+    At least 8 characters and 1 digit
+  </small>
+  {{ form.password }}
+  <label>{{ form.password2.label}}<span class="text-muted small">
+      (Required)</span></label>
+  {{ form.password2 }}
+  <button class="btn btn-primary btn-block py-2 mb-4 mt-5 fw500 w-100" type="submit">Register</button>
+  <p class="text-center">
+    <a href="{% url "account:login" %}">Already have an account?</a>
+  </p>
+</form>
+
+{% endblock %}

@@ -1,0 +1,103 @@
+{% extends "../base.html" %}
+{% load static %}
+{% block title %}Payment Selection{%endblock %}
+{% block content %}
+
+<div class="container">
+  <div class="col-12">
+     <h1 class="h2">Payment Selection</h1>
+  </div>
+  <div class="col-12">
+    <p>Please select your payment option</p>
+  </div>
+  <hr />
+</div>
+
+<div class="container">
+  <div class="row g-3">
+    <div class="col-md-4 col-lg-4 order-md-last p-0 order-3">
+      <div class="d-flex bd-highlight ms-0">
+        <div class="p-2 flex-grow-1 bd-highlight">Sub Total:</div>
+        <div class="p-2 bd-highlight"><span class="fw-bold h5">£</span><span id="sub_total"
+            class="fw-bold h5">{{basket.get_subtotal_price}}</span></div>
+      </div>
+      <div class="d-flex bd-highlight">
+        <div class="p-2 flex-grow-1 bd-highlight">Delivery Cost:</div>
+        <div class="p-2 bd-highlight"><span class="fw-bold h5">£</span><span id="delivery_price"
+            class="fw-bold h5">{{basket.get_delivery_price}}</span></div>
+      </div>
+      <div class="d-flex bd-highlight">
+        <div class="p-2 flex-grow-1 bd-highlight">Total:</div>
+        <div class="p-2 bd-highlight"><span class="fw-bold h5">£</span><span id="total"
+            class="fw-bold h5">{{basket.get_total_price}}</span></div>
+      </div>
+    </div>
+    <div class="col-md-7 col-lg-8 pe-0 pe-md-5">
+      <div id="paypal-button-container"></div>
+    </div>
+  </div>
+</div>
+<script
+  src="https://www.paypal.com/sdk/js?client-id=AZQiAqo_G8vygoAIT9tAL-Z6MQd49xERaY6a3N0ijCRXkubEyMnylsk1qjxNIFM2iAFomcSTfq4yW47O&currency=GBP"
+  data-sdk-integration-source="button-factory">
+</script>
+    <script>
+  function getCookie(name) {
+    var cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+      var cookies = document.cookie.split(';');
+      for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i].trim();
+        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+          cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+          break;
+        }
+      }
+    }
+    return cookieValue;
+  }
+  var csrftoken = getCookie('csrftoken');
+
+
+
+  function initPayPalButton() {
+    paypal.Buttons({
+      style: {
+        shape: 'rect',
+        color: 'gold',
+        layout: 'vertical',
+        label: 'paypal',
+
+      },
+    createOrder: function (data, actions) {
+        return actions.order.create({
+          purchase_units: [{
+            "amount": {
+              "currency_code": "GBP",
+              "value": '{{basket.get_total_price}}'
+            }
+          }]
+        });
+      },
+    onApprove: function (data) {
+        var url = "{% url 'checkout:payment_complete' %}"
+        return fetch(url, {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/json',
+            'X-CSRFToken': csrftoken,
+          },
+          body: JSON.stringify({
+            orderID: data.orderID
+          })
+        }).then(function () {
+          location.href = '{% url 'checkout:payment_successful' %}';
+        })
+      },
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+
+    </script>
+
+{% endblock %}

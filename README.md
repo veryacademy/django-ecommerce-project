@@ -1,29 +1,8 @@
-![alt text](test3.png)
 # Django-Ecommerce
 The Django-Ecommerce is an open-source project inititive and tutorial series.   
 
 # Tutorials
 The tutorials, found [here](https://www.youtube.com/watch?v=UqSJCVePEWU&list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_) on our YouTube channel take you through the steps of developing an ecommerce application with Python Django, prodominately deploying the Django templating system.
-
-What you'll learn
-We'll answer common questions like:
-
-<ul>
-<li>What is GitHub?</li>
-<li>How does one use GitHub?</li>
-<li>What are issues and pull requests?</li>
-<li>How do you use GitHub Pages?</li>
-</ul>
-
-And when you're done you'll be able to:
-
-<ul>
-<li>What is GitHub?</li>
-<li>How does one use GitHub?</li>
-<li>What are issues and pull requests?</li>
-<li>How do you use GitHub Pages?</li>
-</ul>
-
 
 ## Prerequisites
 None. This course is a great introduction for your first day with Django.
@@ -94,6 +73,3 @@ This project welcomes contributions and suggestions. At present, we are not acce
 
 # License
 [MIT License](LICENSE)
-
-
-
