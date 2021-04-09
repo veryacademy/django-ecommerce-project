@@ -1,4 +1,4 @@
-![django ecommerce project](docs/repo-image.png)
+![django ecommerce project](/docs/repo-image.png)
 # Django-Ecommerce
 The Django-Ecommerce is an open-source project inititive and tutorial series.   
 
