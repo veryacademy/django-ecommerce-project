@@ -11,11 +11,11 @@ The Django-Ecommerce is an open-source project inititive and tutorial series.
   - [Audience](#audience)
   - [Course Content](#course-content)
   - [Future Content](#future-content)
-      - [Up Next:](#up-next)
-      - [Introduction Phase Suggestions:](#introduction-phase-suggestions)
-      - [Intermediate Phase Suggestions:](#intermediate-phase-suggestions)
-      - [Advanced Phase Suggestions:](#advanced-phase-suggestions)
-      - [Deployment:](#deployment)
+      - [Next Planned Tutorials](#next-planned-tutorials)
+      - [Introduction Phase Suggestions](#introduction-phase-suggestions)
+      - [Intermediate Level Suggestions](#intermediate-level-suggestions)
+      - [Advanced Level Suggestions](#advanced-level-suggestions)
+      - [Deployment Suggestions](#deployment-suggestions)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -46,11 +46,11 @@ This first tutorial is most definitely aimed at Django beginners where we cover 
 ## Future Content
 List of features requested by community. If you would like to request any features not included - please visit our YouTube channel and make a comment.
 
-#### Up Next:
+#### Next Planned Tutorials
 + Project Refactoring: Restructured project folder
 + Tests for whole system
 
-#### Introduction Phase Suggestions:
+#### Introduction Phase Suggestions
 
 + Create Data fixtures (if possible community support for multiple languages)
 + Setup or custom commands for project inital setup
@@ -62,7 +62,7 @@ List of features requested by community. If you would like to request any featur
 + Rating / Feedback
 + Coupon System
 
-#### Intermediate Phase Suggestions:
+#### Intermediate Level Suggestions
 + Internationalization
 + Change to CBV (or not - up to you)
 + PostgreSQL (via Docker)
@@ -72,7 +72,7 @@ List of features requested by community. If you would like to request any featur
 + Email list + bulk emailing
 + Notifications
 
-#### Advanced Phase Suggestions:
+#### Advanced Level Suggestions
 + Haystack / Elasticsearch
 + User Recommendations/Recommender systems
 + Cache
@@ -81,7 +81,7 @@ List of features requested by community. If you would like to request any featur
 + Generating product statistics
 + Allow users to sell products
 
-#### Deployment:
+#### Deployment Suggestions
 + Docker deployment configuration
 + Heroku deployment
 + Digital Oceon deployment
