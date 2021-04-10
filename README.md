@@ -2,9 +2,18 @@
 # Django-Ecommerce
 The Django-Ecommerce is an open-source project inititive and tutorial series.
 
+## Demo Latest Build
+
+See the current build live by launching the master branch on a free Heroku instance. You will need a Free Heroku account if you havent already got an active account.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+Login details: `a@a.com`/`admin`
+
 ## Table of Contents
 
 - [Django-Ecommerce](#django-ecommerce)
+  - [Demo Latest Build](#demo-latest-build)
   - [Table of Contents](#table-of-contents)
 - [Tutorials](#tutorials)
   - [Prerequisites](#prerequisites)
