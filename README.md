@@ -1,8 +1,17 @@
 ![django ecommerce project](/docs/repo_image.png)
-# Django-Ecommerce
+
+## Table of Contents
+
+- [Django-Ecommerce](#django-ecommerce)
+- [Demo](#demo)
+- [Tutorials](#tutorials)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Django-Ecommerce
 The Django-Ecommerce is an open-source project inititive and tutorial series.
 
-## Demo Latest Build
+## Demo
 
 See the current build live by launching the master branch on a free Heroku instance. You will need a Free Heroku account if you havent already got an active account.
 
@@ -10,25 +19,7 @@ See the current build live by launching the master branch on a free Heroku insta
 
 Login details: `a@a.com`/`admin`
 
-## Table of Contents
-
-- [Django-Ecommerce](#django-ecommerce)
-  - [Demo Latest Build](#demo-latest-build)
-  - [Table of Contents](#table-of-contents)
-- [Tutorials](#tutorials)
-  - [Prerequisites](#prerequisites)
-  - [Audience](#audience)
-  - [Course Content](#course-content)
-  - [Future Content](#future-content)
-      - [Next Planned Tutorials](#next-planned-tutorials)
-      - [Introduction Phase Suggestions](#introduction-phase-suggestions)
-      - [Intermediate Level Suggestions](#intermediate-level-suggestions)
-      - [Advanced Level Suggestions](#advanced-level-suggestions)
-      - [Deployment Suggestions](#deployment-suggestions)
-- [Contributing](#contributing)
-- [License](#license)
-
-# Tutorials
+## Tutorials
 The tutorials, found [here](https://www.youtube.com/watch?v=UqSJCVePEWU&list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_) on our YouTube channel take you through the steps of developing an ecommerce application with Python Django, prodominately deploying the Django templating system.
 
 ## Prerequisites
@@ -95,8 +86,8 @@ List of features requested by community. If you would like to request any featur
 + Heroku deployment
 + Digital Oceon deployment
 
-# Contributing
+## Contributing
 This project welcomes contributions and suggestions. At present, we are not accepting any code contributions. When the tutorials have finished the project will be open to welcome code contributions and further suggestions.
 
-# License
+## License
 [MIT License](LICENSE)
