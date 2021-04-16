@@ -1,7 +1,7 @@
 ![veryacademy](/logo.svg)
 
 <div align="center">
-  <h1>Django Ecommerce Project</h1>
+  <h1>Django Ecommerce Tutorial Series</h1>
 </div>
 
 <div align="center">
