@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "python.pythonPath": "venv\\Scripts\\python.exe",
+  "python.sortImports.args": [
+    "--profile=black",
+  ],
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+      "--line-length=119"
+  ],
+  "[python]": {
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      }
+  },
+  // Django Extension
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+}

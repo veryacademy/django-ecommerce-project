@@ -1,0 +1,46 @@
+{% extends "../base.html" %}
+{% load static %}
+{% block title %}
+{% if category %}{{ category.name }}{% else %}Products{% endif %}
+{% endblock %}
+{% block content %}
+
+
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="album py-5">
+
+
+        <div class="pb-3"><h1 class="h3">Popular</h1></div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
+
+          {% for product in products %}
+
+          <div class="col">
+            <div class="card border-0">
+              <img class="img-fluid" alt="Responsive image" src="{{ product.image.url }}">
+              <div class="card-body px-0">
+                <p class="card-text">
+                  <a class="text-dark text-decoration-none"
+                    href="{{ product.get_absolute_url }}">{{ product.title }}</a>
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">£{{product.price}}</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</main>
+
+{% endblock %}

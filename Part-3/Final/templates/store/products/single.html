@@ -1,0 +1,93 @@
+{% extends "store/base.html" %}
+{% load static %}
+{% block title %}
+{{ product.name }}
+{% endblock %}
+{% block content %}
+
+
+<main class="pt-2">
+
+  <div class="container" style="max-width: 1000px">
+
+    <div class="row g-3">
+          <div class="alert alert-primary fw600 rounded-0 border-0 py-3" role="alert">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-info-circle me-2"
+        viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        <path
+          d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+      </svg>
+      COVID-19 - <u>Click here for our latest updates</u> on our stores, website and contact centre. Thank you for
+      your patience and support.
+    </div>
+        <div class="col-12 d-flex justify-content-between">
+
+        </div>
+
+        <div class="col-md-5 ps-3 col-lg-5 order-md-last p-0 order-1">
+            <div class="d-grid gap-2">
+
+            <div class="d-flex d-flex-inline justify-content-between">
+            <div><span class="h3">£{{ product.price }}</span><p class="text-muted">includes tax</p></div>
+                   <div class="">
+                                <label for="select">Qty</label>
+                                <select id="select" class="h6" style="width:50px;height:40px;">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                    </div>
+            </div>
+            <hr>
+            <button type="button" id="add-button" value="{{product.id}}" class="btn btn-success fw500">Add to basket</button>
+            <button type="button" id="add-button" value="{{product.id}}" class="btn btn-light fw500">Add to Favorites</button>
+            </div>
+        </div>
+
+        <div class="col-md-7 col-lg-7 p-0">
+
+        
+
+            <div class="card mb-3 border-0">
+            <div class="row g-0">
+                <div class="col-md-12">
+                    <div class="card-body p-1">
+                        <h1 class="mb-0 h2 pe-4 pb-4">{{ product.title }}</h1>
+                        <div class="bg-light"><img class="img-fluid mx-auto d-block" width="200px" alt="Responsive image" src="{{ product.image.url }}"> </div>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+  </div>
+</main>
+
+<script>
+    $(document).on('click', '#add-button', function (e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'POST',
+            url: '{% url "basket:basket_add" %}',
+            data: {
+                productid: $('#add-button').val(),
+                productqty: $('#select option:selected').text(),
+                csrfmiddlewaretoken: "{{csrf_token}}",
+                action: 'post'
+            },
+            success: function (json) {
+               document.getElementById("basket-qty").innerHTML = json.qty
+            },
+            error: function (xhr, errmsg, err) {}
+        });
+    })
+</script>
+
+{% endblock %}

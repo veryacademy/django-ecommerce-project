@@ -1,0 +1,63 @@
+{% extends "../sub_base.html" %}
+{% block title %}Edit Addresses{% endblock %}
+
+
+
+{% block sub_content %}
+<h1 class="h2">Your Addresses</h1>
+<div>Manage your <b>addresses</b> and delivery preferences</div>
+<hr />
+<div class="container px-0">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <a href="{% url "account:add_address" %}" class="text-reset text-decoration-none" role="button"
+        style="max-width: 540px;">
+        <div class="card mb-3 h-100" style="border: dashed 2px #ccc;">
+          <div class="row g-0 h-100">
+            <div class="col-12" style="min-height:100px">
+              <div class="card-body text-center position-absolute top-50 start-50 translate-middle">
+                <svg style="color:#ccc;" xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                  class="bi bi-plus" viewBox="0 0 16 16">
+                  <path
+                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                </svg>
+                <h1 class="h5">Add Address</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% for address in addresses %}
+    <div class="col">
+      <div class="card pb-3">
+        <div class="card-header bg-white small text-muted">
+          {% if address.default %}
+            Default 
+          {% endif %}
+          &nbsp;
+        </div>
+        <div class="card-body small pb-1">
+          <p class="card-text m-0 fw-bold">{{address.full_name}}</p>
+          <p class="card-text m-0">{{address.address_line}}</p>
+          <p class="card-text m-0">{{address.address_line2}}</p>
+          <p class="card-text m-0">{{address.town_city}}</p>
+          <p class="card-text m-0">{{address.postcode}}</p>
+          <p class="card-text m-0">Phone number: {{address.phone}}</p>
+          <div class="pt-5">
+            <a href="{% url 'account:edit_address' address.id %}" class="text-decoration-none">Edit</a>
+            |
+            <a href="{% url 'account:delete_address' address.id %}" class="text-decoration-none">Delete</a>
+            {% if not address.default %}
+            | <a href="{% url 'account:set_default' address.id %}" class="text-decoration-none">Set Default</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}

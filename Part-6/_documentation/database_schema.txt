@@ -1,0 +1,57 @@
+https://dbdiagram.io/d
+
+
+Table category as C {
+  id int [pk, increment]
+  name varchar
+  slug slug
+  parent varchar
+  is_active boolean
+}
+
+Table ProductType as PT {
+  id int [pk, increment]
+  name varchar
+  is_active boolean
+}
+
+Table ProductSpecification as PS {
+  id int [pk, increment]
+  product_type int
+  name varchar
+} 
+Ref: PT.id < PS.product_type  
+
+Table Product as P {
+  id int [pk, increment]
+  product_type int
+  category int
+  description varchar
+  slug slug
+  regular_price decimal
+  discount_price decimal
+  is_active boolean
+  created_at timestamp
+  updated_at timestamp
+}
+Ref: PT.id < P.product_type 
+Ref: C.id < P.category
+
+Table ProductSpecificationValue as PSV {
+  id int [pk, increment]
+  product int
+  specification int
+  value varchar
+}
+Ref: P.id < PSV.product
+Ref: PS.id < PSV.specification
+
+Table ProductImage as PI {
+  id int [pk, increment]
+  product int
+  image image
+  is_feature boolean
+  created_at timestamp
+  updated_at timestamp
+}
+Ref: P.id < PI.product

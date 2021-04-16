@@ -1,0 +1,68 @@
+{% extends "../../store/base.html" %}
+{% block title %}Log-in{% endblock %}
+{% block content %}
+
+<style>
+    .container-fluid {
+        max-width: 100%;
+    }
+
+    .account-form input {
+        border: 2px solid #ccc;
+        height: calc(2em + .75rem + 2px);
+    }
+
+    .account-form input:focus {
+        border-color: #1497ff;
+        box-shadow: none;
+    }
+</style>
+
+
+<div class="container-fluid">
+    <div class="row no-gutter">
+        <div class="col-md-12">
+            <div class="login d-flex align-items-center py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6  mx-auto">
+                            <form class="account-form p-4 rounded" action="{% url 'account:login' %}" method="post">
+
+                                {% csrf_token %}
+                                <h3 class="mb-4">Sign In</h3>
+
+                                {% if form.errors %}
+                                <div class="alert alert-primary" role="alert">
+                                    Error: Username or Password not correct!
+                                </div>
+                                {% endif %}
+
+                                <label class="form-label">{{ form.username.label}}</label>
+                                {{ form.username}}
+
+                                <label class="form-label">{{ form.password.label}}</label>
+                                {{ form.password}}
+                                <div class="d-grid gap-2">
+                                    <input type="hidden" name="next" value="{{ next }}">
+                                    <button class="btn btn-primary py-2 mb-4 mt-5 fw-bold" type="submit" value="Log-in">Sign in
+                                    </button>
+                                </div>
+                                <p class="text-center pb-3">
+                                    <a href="{% url "account:register" %}">Create an account</a>
+                                </p>
+                            </form>
+                            <p class="small text-center pt-4">
+                                {% comment %} <a href="{% url "password_reset" %}">Forgotten Password?</a> {% endcomment %}
+                            </p>
+                            <p class="small text-center">
+                                {% comment %} <a href="{% url "accounts:register" %}">Help Center?</a> {% endcomment %}
+                            </p>
+                     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
