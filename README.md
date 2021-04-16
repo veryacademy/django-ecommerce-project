@@ -1,15 +1,15 @@
 ![veryacademy](/logo.svg)
 
 <div align="center">
-  <h1>Django Ecommerce Tutorial Series</h1>
+  <h1>Django E-commerce Tutorial Series</h1>
 </div>
 
 <div align="center">
-  <strong>Learn Python and the Django Framework by building a real ecommerce website</strong>
+  <strong>Learn Python and the Django Framework by building a real e-commerce website</strong>
 </div>
 
 <div align="center">
-  The Django-Ecommerce project is an open-source inititive and tutorial series. Learn from a beginner level how to build an ecommerce website.
+  The Django E-commerce project is an open-source initiative and tutorial series. Learn from a beginner level how to build an e-commerce website.
 </div>
 
 <br>
@@ -39,7 +39,7 @@ The aims of this course is to:
 * learn how to build, test and deploy a Django application
 
 ## Course Introduction
-The Django Ecommerce Tutorial Series is designed for students who wants to learn the Django Framework by building an e-commerce application. This course is a great way to start learning Python and the Django Framework. We start from a beginners level slowly moving into more advanced topics. I have tried to design this course to be modular so that you could also focus in on particular subjects, tutorials or aspects of Django should you prefer this mode of learning.
+The Django E-commerce Tutorial Series is designed for students who wants to learn the Django Framework by building an e-commerce application. This course is a great way to start learning Python and the Django Framework. We start from a beginners level slowly moving into more advanced topics. I have tried to design this course to be modular so that you could also focus in on particular subjects, tutorials or aspects of Django should you prefer this mode of learning.
 
 On this course you will be taught a wide range of skills, here are a few topics that we will be learning:
 
@@ -59,7 +59,7 @@ See the current build live by launching the latest version of the e-commerce app
 Login details: `a@a.com`/`admin` -->
 
 ## Tutorials
-The tutorials, found [here](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_) on our YouTube channel take you through the steps of developing an ecommerce application with Python Django, prodominately deploying the Django templating system.
+The tutorials, found [here](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_) on our YouTube channel take you through the steps of developing an e-commerce application with Python Django, predominately deploying the Django template system.
 
 ## Prerequisites
 * Install Python onto your PC/Laptop
@@ -80,7 +80,7 @@ This course tries to cater for many types of learners:
 <summary><b>Part-1 Building the product catalogue</b>
 </summary>
 <br>
-This first tutorial is most definitely aimed at Django beginners where we cover the basics of developing Django views, URLS, models and get started with testing our application. By the end of this tutorial you will have a working product catalogue which will form the basis of our Ecommerce application.  
+This first tutorial is most definitely aimed at Django beginners where we cover the basics of developing Django views, URLS, models and get started with testing our application. By the end of this tutorial you will have a working product catalogue which will form the basis of our e-commerce application.  
 <br><br>
 <ul>
 <li>Completed source repository</li>
@@ -98,7 +98,7 @@ I activity try and promote feedback to taylor courses to your needs and wishes. 
 #### Introduction Phase Suggestions
 
 + Create Data fixtures (if possible community support for multiple languages)
-+ Setup or custom commands for project inital setup
++ Setup or custom commands for project initial setup
 + Documentation - Class Diagrams and Sequence Diagrams
 + Basic/different search techniques
 + Product Tags/Search
@@ -129,7 +129,7 @@ I activity try and promote feedback to taylor courses to your needs and wishes. 
 #### Deployment Suggestions
 + Docker deployment configuration
 + Heroku deployment
-+ Digital Oceon deployment
++ Digital Ocean deployment
 
 ## Contributing
 This project welcomes contributions and suggestions. At present, we are not accepting any code contributions. When the tutorials have finished the project will be open to welcome code contributions and further suggestions.
