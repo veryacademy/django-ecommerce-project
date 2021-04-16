@@ -67,10 +67,9 @@ The tutorials, found [here](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxY
 ## Who is this course for
 This course tries to cater for many types of learners:
 
-* new developers, 
-* new Python Django developers, 
-* Python Django enthusiasts, 
-* Degree students
+* new developers,
+* not so new developers, 
+* degree students,
 * Everyone else who is looking to learn Django
 
 ## Course Content
