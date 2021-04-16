@@ -33,12 +33,26 @@ title="PayPal – The safer, easier way to pay online!" border="0" />
 </a>
 </div>
 
-## Django-Ecommerce
-The Django-Ecommerce is an open-source project inititive and tutorial series.
+## Aims of this course
+The aims of this course is to:
+* learn the Django framework
+* learn how to build, test and deploy a Django application
+
+## Course Introduction
+The Django Ecommerce Tutorial Series is designed for students who wants to learn the Django Framework by building an e-commerce application. This course is a great way to start learning Python and the Django Framework. We start from a beginners level slowly moving into more advanced topics. I have tried to design this course to be modular so that you could also focus in on particular subjects, tutorials or aspects of Django should you prefer this mode of learning.
+
+On this course you will be taught a wide range of skills, here are a few topics that we will be learning:
+
+* Django URLs, models, views
+* Django Templating
+* Introduction to Unittest
+* Testing with Pytest
+* Working with Django and Docker
+* Deploying Django Applications
 
 ## Demo
 
-See the current build live by launching the master branch on a free Heroku instance. You will need a Free Heroku account if you havent already got an active account.
+See the current build live by launching the latest version of the e-commerce application on a free Heroku instance. You will need a Free Heroku account if you havent already got an active account.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -48,10 +62,16 @@ Login details: `a@a.com`/`admin`
 The tutorials, found [here](https://www.youtube.com/watch?v=UqSJCVePEWU&list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_) on our YouTube channel take you through the steps of developing an ecommerce application with Python Django, prodominately deploying the Django templating system.
 
 ## Prerequisites
-None. This course is a great introduction for your first day with Django.
+* Install Python onto your PC/Laptop
 
-## Audience
-New developers, new Python Django developers, Python Django enthusiasts, students and anyone we have missed.
+## Who is this course for
+This course tries to cater for many types of learners:
+
+* new developers, 
+* new Python Django developers, 
+* Python Django enthusiasts, 
+* Degree students
+* Everyone else who is looking to learn Django
 
 ## Course Content
 
@@ -68,11 +88,10 @@ This first tutorial is most definitely aimed at Django beginners where we cover 
 
 </details>
 
-## Future Content
-List of features requested by community. If you would like to request any features not included - please visit our YouTube channel and make a comment.
+## Community Driven Content
+I activity try and promote feedback to taylor courses to your needs and wishes. Here is a list of features requested by community. If you would like to request any other feature not listed here - please visit our YouTube channel and make a comment.
 
 #### Next Planned Tutorials
-+ Project Refactoring: Restructured project folder
 + Tests for whole system
 
 #### Introduction Phase Suggestions
