@@ -135,7 +135,7 @@ I activity try and promote feedback to taylor courses to your needs and wishes. 
 This project welcomes contributions and suggestions. At present, we are not accepting any code contributions. When the tutorials have finished the project will be open to welcome code contributions and further suggestions.
 
 ## Instructor
-Zander, the founder of Very Academy has over 20 years of development and educational lecturing experience. He is now focused on developing providing free technical courses and resources of a range of subjects.
+Zander, the founder of Very Academy has over 20 years of development and educational lecturing experience. He is now focused on developing free technical courses and resources of a range of subjects.
 
 ## License
 [MIT License](LICENSE)
