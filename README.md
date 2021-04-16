@@ -63,6 +63,8 @@ The tutorials, found [here](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxY
 
 ## Prerequisites
 * Install Python onto your PC/Laptop
+* Ideally have Visual Studio Code
+* Tutorials use Windows OS (you can use other OS but it might require additional steps not detailed in the tutorials) 
 
 ## Who is this course for
 This course tries to cater for many types of learners:
