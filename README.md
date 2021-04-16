@@ -50,13 +50,13 @@ On this course you will be taught a wide range of skills, here are a few topics 
 * Working with Django and Docker
 * Deploying Django Applications
 
-## Demo
+<!-- ## Demo
 
 See the current build live by launching the latest version of the e-commerce application on a free Heroku instance. You will need a Free Heroku account if you havent already got an active account.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-Login details: `a@a.com`/`admin`
+Login details: `a@a.com`/`admin` -->
 
 ## Tutorials
 The tutorials, found [here](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_) on our YouTube channel take you through the steps of developing an ecommerce application with Python Django, prodominately deploying the Django templating system.
