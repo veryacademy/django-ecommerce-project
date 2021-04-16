@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <strong>Learn Python and the Django Framework by building a real e-commerce website</strong>
+  <strong>Learn Python and the Django Framework by building a e-commerce website</strong>
 </div>
 
 <div align="center">
