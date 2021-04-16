@@ -59,7 +59,7 @@ See the current build live by launching the latest version of the e-commerce app
 Login details: `a@a.com`/`admin`
 
 ## Tutorials
-The tutorials, found [here](https://www.youtube.com/watch?v=UqSJCVePEWU&list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_) on our YouTube channel take you through the steps of developing an ecommerce application with Python Django, prodominately deploying the Django templating system.
+The tutorials, found [here](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_) on our YouTube channel take you through the steps of developing an ecommerce application with Python Django, prodominately deploying the Django templating system.
 
 ## Prerequisites
 * Install Python onto your PC/Laptop
