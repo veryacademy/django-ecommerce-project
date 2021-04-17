@@ -77,16 +77,84 @@ This course tries to cater for many types of learners:
 ## Course Content
 
 <details>
-<summary><b>Part-1 Building the product catalogue</b>
+<summary><b>Part-1 Building models, views and testing</b>
 </summary>
 <br>
-This first tutorial is most definitely aimed at Django beginners where we cover the basics of developing Django views, URLS, models and get started with testing our application. By the end of this tutorial you will have a working product catalogue which will form the basis of our e-commerce application.  
+This first tutorial is most definitely aimed at Django beginners where we cover the basics of developing Django views, URLS, models and get started with testing our application. By the end of this tutorial you will have a working product catalogue which will form the basis of our e-commerce application.
 <br><br>
-<ul>
-<li>Completed source repository</li>
-<li>Link to Video Tutorial</li>
-</ul>
+Link to Tutorial https://youtu.be/UqSJCVePEWU
+</details>
 
+<details>
+<summary><b>Part-2 Build an e-commerce basket with session handling</b>
+</summary>
+<br>
+In this tutorial we go through the process of building a shopping basket using sessions to handle managing data anonymous connections, saving products into a shopping cart in preparation to be purchased. We implement Ajax to handle the front-end and work through stage by stage the functionality needed to save, update and delete the basket data. 
+<br><br>
+Link to Tutorial https://youtu.be/VOwfGW-ZTIY
+</details>
+
+<details>
+<summary><b>Part-3 Build a user, payment and order management system</b>
+</summary>
+<br>
+In this tutorial we go through the process of building the user functions needed to allow users to login and manage their account. We then work through building a payment system using stripe and finally create an ordering backend to capture the customer orders. 
+<br><br>
+Link to Tutorial https://youtu.be/ncsCnC3Ynlw
+</details>
+
+<details>
+<summary><b>Part-4 Refactoring the E-commerce Store Templates</b>
+</summary>
+<br>
+In this tutorial we go through the process of refactoring the templates in our project.
+<br><br>
+Link to Tutorial https://youtu.be/S9-aRoLrs7U
+</details>
+
+<details>
+<summary><b>Part-5 Multi-Product Types Database Implementation</b>
+</summary>
+<br>
+In this tutorial we go through the process of developing a database for multiple products with multiple attributes.
+<br><br>
+Link to Tutorial https://youtu.be/hGg13rzvoNY
+</details>
+
+<details>
+<summary><b>Part-6 Managing multiple addresses CRUD and UUID</b>
+</summary>
+<br>
+In this tutorial we go through the process of further normalizing the accounts table to allow users to save more than one address. We build in Django a new address table and then start to update the UI in the dashboard, finally we work through a simple CRUD feature with Django views.
+<br><br>
+Link to Tutorial https://youtu.be/8SP76dopYVo
+</details>
+
+<details>
+<summary><b>Part-7 E-commerce Customer Wish List</b>
+</summary>
+<br>
+ In this tutorial we go through the process of building a purely Django user wish list to allow users to create a list of favorite products.
+<br><br>
+Link to Tutorial https://youtu.be/OgA0TTKAtqQ
+</details>
+
+<details>
+<summary><b>Part-8 PayPal Integration</b>
+</summary>
+<br>
+In this tutorial we go through the first steps of integrating PayPal into our e-commerce store. 
+<br><br>
+Link to Tutorial https://youtu.be/smSl2ahkfNw
+</details>
+
+<details>
+<summary><b>Part-9 Refactor Folder Structure & Pytest Introduction</b>
+</summary>
+<br>
+In this Django tutorial we discuss Django folder structures and prepare our application ready for scaling further. We prepare the app for the next step of testing, installing Pytest and I take you through the first steps of working with Pytest to test your application.
+<br><br>
+Link to Tutorial https://youtu.be/ZE7dM0XmUoA
 </details>
 
 ## Community Driven Content
