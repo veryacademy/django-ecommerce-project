@@ -163,7 +163,7 @@ Link to Tutorial https://youtu.be/ZE7dM0XmUoA
 <br>
 In this Django tutorial we start to test with Pytest, Factory Boy the apps we have build previously.
 <br><br>
-Link to Tutorial https://youtu.be/ZE7dM0XmUoA
+Link to Tutorial 
 </details>
 
 ## Community Driven Content
