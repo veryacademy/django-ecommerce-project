@@ -157,6 +157,15 @@ In this Django tutorial we discuss Django folder structures and prepare our appl
 Link to Tutorial https://youtu.be/ZE7dM0XmUoA
 </details>
 
+<details>
+<summary><b>Part-10 Pytest Testing 1</b>
+</summary>
+<br>
+In this Django tutorial we start to test with Pytest, Factory Boy the apps we have build previously.
+<br><br>
+Link to Tutorial https://youtu.be/ZE7dM0XmUoA
+</details>
+
 ## Community Driven Content
 I activity try and promote feedback to taylor courses to your needs and wishes. Here is a list of features requested by community. If you would like to request any other feature not listed here - please visit our YouTube channel and make a comment.
 
