@@ -200,7 +200,7 @@ I activity try and promote feedback to taylor courses to your needs and wishes. 
 + Digital Ocean deployment
 
 ## Contributing
-This project welcomes contributions and suggestions. At present, we are not accepting any code contributions. When the tutorials have finished the project will be open to welcome code contributions and further suggestions.
+This course welcomes contributions and suggestions. At present, we are not accepting any code contributions. When the tutorials have finished the project will be open to welcome code contributions. If you find any errors or have trouble with any of our code - please get in contact with us through our YouTube channel.
 
 ## Instructor
 Zander, the founder of Very Academy has over 20 years of development and educational lecturing experience. He is now focused on developing free technical courses and resources on a range of subjects.
