@@ -1,0 +1,26 @@
+{
+  "name": "django-ecommerce",
+  "description": "An Python and Django ecommerce project and tutorials series",
+  "repository": "https://github.com/veryacademy/django-ecommerce",
+  "website": "http://veryacademy.com/",
+  "keywords": [
+    "e-commerce",
+    "ecommerce",
+    "django",
+    "python"
+  ],
+  "image": "heroku/python",
+  "env": {
+    "DJANGO_SETTINGS_MODULE": "ecommerce.settings",
+    "DEBUG": "True",
+    "ALLOWED_HOSTS": {
+      "value": ".herokuapp.com"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ],
+  "success_url": "/"
+}
