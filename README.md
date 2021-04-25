@@ -193,6 +193,7 @@ I activity try and promote feedback to taylor courses to your needs and wishes. 
 + Store locator to your project
 + Email list + bulk emailing
 + Notifications
++ Request quotations for bulk orders
 
 #### Advanced Level Suggestions
 + Haystack / Elasticsearch
