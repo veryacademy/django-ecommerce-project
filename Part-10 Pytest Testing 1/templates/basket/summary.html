@@ -15,7 +15,7 @@
 <div class="container">
   <div class="row g-3">
     {% if basket|length == 0 %}
-    <div class="col-12">Your basket is empty <a href="{% url 'store:store_home' %}">Shop</a></div>
+    <div class="col-12">Your basket is empty <a href="{% url 'catalogue:store_home' %}">Shop</a></div>
     {% else %}
     <div class="col-12 bg-light p-3 d-flex justify-content-between">
       <div class="d-flex d-flex-inline">
