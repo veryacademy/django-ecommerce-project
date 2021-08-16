@@ -27,7 +27,7 @@ urlpatterns = [
          name="password_reset_confirm"),
     path('password_reset/password_reset_email_confirm/',
          TemplateView.as_view(template_name="account/user/reset_status.html"), name='password_reset_done'),
-    path('password_reset_confirm/Mg/password_reset_complete/',
+    path('password_reset_complete/',
          TemplateView.as_view(template_name="account/user/reset_status.html"), name='password_reset_complete'),
     # User dashboard
     path('dashboard/', views.dashboard, name='dashboard'),
