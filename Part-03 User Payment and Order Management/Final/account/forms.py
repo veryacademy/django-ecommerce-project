@@ -32,7 +32,7 @@ class RegistrationForm(forms.ModelForm):
         model = UserBase
         fields = ('user_name', 'email',)
 
-    def clean_username(self):
+    def clean_user_name(self):
         user_name = self.cleaned_data['user_name'].lower()
         r = UserBase.objects.filter(user_name=user_name)
         if r.count():
